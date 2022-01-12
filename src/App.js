@@ -28,7 +28,7 @@ function App() {
               <Route exact path='/react_portfolio/resume' element={<Resume/>}/>
             </Routes>
           </main>
-          <Footer />
+          <Footer/>
       </div>
     </Router>
   );
