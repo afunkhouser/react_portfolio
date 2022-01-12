@@ -16,25 +16,25 @@ function Nav(props) {
                     <li className={`${currentPage === 'about' && 'nav-active'}`}>
                         <span
                             onClick={() => setCurrentPage('about')}>
-                                <Link to='/react-portfolio'>About Me</Link>
+                                <Link to='/react_portfolio'>About Me</Link>
                         </span>
                     </li>
                     <li className={`${currentPage === 'portfolio' && 'nav-active'}`}>
                         <span
                             onClick={() => setCurrentPage('portfolio')}>
-                                <Link to='/react-portfolio/portfolio'>Portfolio</Link>
+                                <Link to='/react_portfolio/portfolio'>Portfolio</Link>
                         </span>
                     </li>
                     <li className={`${currentPage === 'contact' && 'nav-active'}`}>
                         <span
                             onClick={() => setCurrentPage('contact')}>
-                                <Link to='/react-portfolio/contact'>Contact</Link>
+                                <Link to='/react_portfolio/contact'>Contact</Link>
                         </span>
                     </li>
                     <li className={`${currentPage === 'resume' && 'nav-active'}`}>
                         <span
                             onClick={() => setCurrentPage('resume')}>
-                                <Link to='/react-portfolio/resume'>Resumé</Link>
+                                <Link to='/react_portfolio/resume'>Resumé</Link>
                         </span>
                     </li>
                 </ul>
