@@ -22,10 +22,10 @@ function App() {
           setCurrentPage={setCurrentPage}/>
           <main>
             <Routes>
-              <Route exact path = "/react-portfolio/portfolio" element={<Portfolio/>}/>
-              <Route exact path='/react-portfolio/' element={<About/>}/>
-              <Route exact path='/react-portfolio/contact' element={<Contact/>}/>
-              <Route exact path='/react-portfolio/resume' element={<Resume/>}/>
+              <Route exact path = "/react_portfolio/portfolio" element={<Portfolio/>}/>
+              <Route exact path='/react_portfolio/' element={<About/>}/>
+              <Route exact path='/react_portfolio/contact' element={<Contact/>}/>
+              <Route exact path='/react_portfolio/resume' element={<Resume/>}/>
             </Routes>
           </main>
           <Footer />
