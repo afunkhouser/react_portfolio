@@ -11,7 +11,7 @@ function Footer() {
                         href="https://github.com/afunkhouser"
                         target="_blank"
                         rel="noreferrer">
-    
+                            Github
                     </a>
                 </li>
                 <li className="footer-item">
@@ -20,7 +20,7 @@ function Footer() {
                         href="https://www.linkedin.com/in/alison-funkhouser-aa5b28132/"
                         target="_blank"
                         rel="noreferrer">
-                            
+                           Linkedin
                     </a>
                 </li>
             </ul>
